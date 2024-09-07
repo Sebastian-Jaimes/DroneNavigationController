@@ -24,7 +24,7 @@
 ## Instalación
 1. Clonar el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/Diyscope-cnc.git
+    git clone https://github.com/Sebastian-Jaimes/DroneNavigationController
     ```
 2. Acceder a la carpeta del firmware según el componente a desarrollar.
 3. Seguir las instrucciones de compilación en el archivo `README.md` de cada subcarpeta.

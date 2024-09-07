@@ -1,0 +1,24 @@
+# Compilados
+*.o
+*.out
+*.log
+*.bin
+*.hex
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Arduino
+*.ino~
+*.cpp~
+
+# Carpeta de PlatformIO
+.pio/
+
+# Ignorar archivos de entorno de trabajo (por ejemplo, configuraciones de VSCode)
+.vscode/
+.idea/
+
+# Ignorar archivos de simulación grandes
+*.fem

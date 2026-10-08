@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="tssapz_Xm-WRZHuJje36" name="Page-1">
+        <mxGraphModel dx="520" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="box" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Arquitectura Mejorada Controlador de Vuelo" vertex="1">
+                    <mxGeometry height="600" width="1080" x="40" y="40" as="geometry">
+                        <mxRectangle height="30" width="270" x="40" y="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mcu1" parent="box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="STM32F4&#xa;(MCU Principal - Control de Vuelo)" vertex="1">
+                    <mxGeometry height="100" width="200" x="280" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="mcu2" parent="box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="STM32G0&#xa;(MCU Secundario - Comunicaciones)" vertex="1">
+                    <mxGeometry height="100" width="200" x="720" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="spi_inter" edge="1" parent="box" source="mcu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontColor=#0000FF;" target="mcu2" value="Bus SPI (Alta Velocidad) / DMA">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="imu" parent="box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="IMU (ICM-42688 / BMI270)" vertex="1">
+                    <mxGeometry height="60" width="120" x="200" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="microsd" parent="box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="MicroSD (Blackbox)" vertex="1">
+                    <mxGeometry height="60" width="120" x="360" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="motores" parent="box" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Conector Motores (ESCs)" vertex="1">
+                    <mxGeometry height="50" width="140" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="usb" parent="box" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Conector USB-C" vertex="1">
+                    <mxGeometry height="60" width="100" x="60" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="oled_baro" parent="box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OLED + Barómetro" vertex="1">
+                    <mxGeometry height="60" width="120" x="40" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_imu" edge="1" parent="box" source="mcu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="imu" value="SPI">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_sd" edge="1" parent="box" source="mcu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="microsd" value="SDIO (4-bit)">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="340"/>
+                            <mxPoint x="420" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_mot" edge="1" parent="box" source="mcu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="motores" value="PWM / DShot">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="250"/>
+                            <mxPoint x="230" y="225"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_usb" edge="1" parent="box" source="mcu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="usb" value="USB D+/D-">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="290"/>
+                            <mxPoint x="230" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_i2c" edge="1" parent="box" source="mcu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="oled_baro" value="I2C">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="340" y="350"/>
+                            <mxPoint x="100" y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="telemetria" parent="box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Receptor RC / Telemetría&#xa;(ELRS / Crossfire)" vertex="1">
+                    <mxGeometry height="60" width="160" x="640" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="lidar" parent="box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="LiDAR / GPS" vertex="1">
+                    <mxGeometry height="60" width="120" x="840" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_tel" edge="1" parent="box" source="mcu2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="telemetria" value="UART">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="800" y="360"/>
+                            <mxPoint x="720" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_lidar" edge="1" parent="box" source="mcu2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lidar" value="UART / I2C">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="360"/>
+                            <mxPoint x="900" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="power" parent="box" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Gestión de Energía&#xa;(Buck Converter 5V + LDO 3.3V)" vertex="1">
+                    <mxGeometry height="60" width="280" x="400" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_pwr1" edge="1" parent="box" source="power" target="mcu1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="160" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_pwr2" edge="1" parent="box" source="power" target="mcu2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="690" y="160" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -3304,44 +3304,12 @@
 		(uuid "fa6a1066-5dfa-490b-9771-7efc35d22569")
 	)
 	(no_connect
-		(at 166.37 85.09)
-		(uuid "00d0546b-2096-4010-b4ca-4d073fdee7b9")
-	)
-	(no_connect
-		(at 130.81 135.89)
-		(uuid "069b952b-04da-4156-b0e7-141bc544dede")
-	)
-	(no_connect
-		(at 166.37 102.87)
-		(uuid "1bdf5020-f4f8-4fe7-882e-da4a6a0518bc")
-	)
-	(no_connect
 		(at 130.81 113.03)
 		(uuid "21d71b36-7946-4e55-854e-2db780f35b79")
 	)
 	(no_connect
-		(at 130.81 138.43)
-		(uuid "226b0a36-01ef-46ce-b04e-49a49b075a9a")
-	)
-	(no_connect
-		(at 130.81 120.65)
-		(uuid "395f055f-40f6-43a5-b3b6-e2fdfadc7e12")
-	)
-	(no_connect
-		(at 166.37 95.25)
-		(uuid "40932ff0-89bb-48f6-b507-c9adf508030f")
-	)
-	(no_connect
 		(at 130.81 140.97)
 		(uuid "4bb3850e-3481-4ebc-bd19-45f0e2d006d1")
-	)
-	(no_connect
-		(at 166.37 90.17)
-		(uuid "52e05248-b1fe-423b-b501-968c6ce01fe8")
-	)
-	(no_connect
-		(at 166.37 87.63)
-		(uuid "5311bdfa-fd28-44d6-a2e0-c491d284b172")
 	)
 	(no_connect
 		(at 166.37 153.67)
@@ -3356,20 +3324,8 @@
 		(uuid "7036bf03-3c42-4a69-8ae1-173330f17574")
 	)
 	(no_connect
-		(at 166.37 151.13)
-		(uuid "8576f706-363a-4597-8bf3-8e84e3ffc3fc")
-	)
-	(no_connect
 		(at 166.37 135.89)
 		(uuid "87c252ed-a6d6-47fb-af14-2ee90d85829e")
-	)
-	(no_connect
-		(at 166.37 105.41)
-		(uuid "8de6e0fb-74d3-47f2-992b-5b6854c7cc4d")
-	)
-	(no_connect
-		(at 166.37 97.79)
-		(uuid "9bcdcec1-3b77-46a4-adf5-c34ef0e08cc0")
 	)
 	(no_connect
 		(at 166.37 158.75)
@@ -3384,20 +3340,8 @@
 		(uuid "a4d0e25b-2588-46d4-886f-859157052c3a")
 	)
 	(no_connect
-		(at 166.37 138.43)
-		(uuid "a8af9a1e-7b37-40b7-adaa-3ab0d9c1b5af")
-	)
-	(no_connect
-		(at 130.81 118.11)
-		(uuid "aba4d8e9-69ee-43ba-9342-773945c317d8")
-	)
-	(no_connect
-		(at 166.37 92.71)
-		(uuid "ac55f926-18ed-4a13-875a-486326a4d3e9")
-	)
-	(no_connect
-		(at 130.81 102.87)
-		(uuid "c470b8f5-1e52-4055-8890-df8af3cd316b")
+		(at 130.81 123.19)
+		(uuid "a9fdd3d7-0341-4fe3-99c3-be5fcc9325b0")
 	)
 	(no_connect
 		(at 166.37 143.51)
@@ -3408,8 +3352,8 @@
 		(uuid "cca1eff8-8381-4c62-acdf-37eb233d2a96")
 	)
 	(no_connect
-		(at 166.37 100.33)
-		(uuid "d62ec429-6691-4bd8-b7a6-b7469904b246")
+		(at 130.81 125.73)
+		(uuid "d224c307-718e-4684-bf0f-433986b60e67")
 	)
 	(no_connect
 		(at 130.81 107.95)
@@ -3420,24 +3364,12 @@
 		(uuid "dbf3faca-99c6-4777-930a-9d60bb1d5325")
 	)
 	(no_connect
-		(at 130.81 133.35)
-		(uuid "dd666e5c-f71b-4afb-8415-c281bd775bd5")
-	)
-	(no_connect
 		(at 130.81 115.57)
 		(uuid "e40f6659-a772-4e07-9078-5d8ce1eb75ba")
 	)
 	(no_connect
-		(at 166.37 140.97)
-		(uuid "f87583a1-7380-4178-8945-1721b42cfc75")
-	)
-	(no_connect
 		(at 166.37 123.19)
 		(uuid "fbac4b19-e6ca-4455-8b06-25f2eccb3f14")
-	)
-	(no_connect
-		(at 166.37 148.59)
-		(uuid "fc7bd4ea-2876-4b29-b8cf-401cd1e00eb6")
 	)
 	(wire
 		(pts
@@ -3521,6 +3453,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 148.59) (xy 182.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fe6704-2eaf-480c-9860-af2cad313e48")
+	)
+	(wire
+		(pts
 			(xy 243.84 147.32) (xy 245.11 147.32)
 		)
 		(stroke
@@ -3531,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 181.61 113.03)
+			(xy 166.37 113.03) (xy 182.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 128.27) (xy 130.81 128.27)
+			(xy 182.88 90.17) (xy 166.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3543,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 123.19) (xy 130.81 123.19)
+			(xy 182.88 85.09) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3651,6 +3593,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 97.79) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25090713-676c-4c37-80eb-6032634467d8")
+	)
+	(wire
+		(pts
 			(xy 251.46 113.03) (xy 251.46 110.49)
 		)
 		(stroke
@@ -3691,16 +3643,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 115.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d1776d7-c575-4890-821d-966894fbc2ef")
-	)
-	(wire
-		(pts
 			(xy 35.56 67.31) (xy 35.56 64.77)
 		)
 		(stroke
@@ -3718,6 +3660,16 @@
 			(type default)
 		)
 		(uuid "2fe369d9-0e29-45c1-a7f7-2621977a12df")
+	)
+	(wire
+		(pts
+			(xy 114.3 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327ae72b-6f47-4651-b4ff-6a7a58d64883")
 	)
 	(wire
 		(pts
@@ -3758,6 +3710,16 @@
 			(type default)
 		)
 		(uuid "3539d114-4cc4-4cd8-a4c6-1f213ad667de")
+	)
+	(wire
+		(pts
+			(xy 166.37 128.27) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ceb9b7-606a-4200-9cbe-021c72f43e23")
 	)
 	(wire
 		(pts
@@ -3851,6 +3813,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d194f8f-3c9f-4138-9860-b61f105cb8f2")
+	)
+	(wire
+		(pts
 			(xy 163.83 54.61) (xy 163.83 55.88)
 		)
 		(stroke
@@ -3868,6 +3840,16 @@
 			(type default)
 		)
 		(uuid "5252a3e4-1e97-485f-ab23-d8b1b668009a")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 182.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b542c9-f587-4c41-a002-1b1cba99ff7e")
 	)
 	(wire
 		(pts
@@ -3921,7 +3903,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 115.57) (xy 181.61 115.57)
+			(xy 166.37 115.57) (xy 182.88 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3991,13 +3973,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 113.03) (xy 100.33 113.03)
+			(xy 166.37 130.81) (xy 182.88 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62899343-3af7-4924-bddf-da14620c03d4")
+	)
+	(wire
+		(pts
+			(xy 114.3 138.43) (xy 130.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a4c909-3031-4a33-b0ed-36f9960128dc")
 	)
 	(wire
 		(pts
@@ -4028,6 +4020,26 @@
 			(type default)
 		)
 		(uuid "6ccbc017-ea54-470c-a470-91e69a992d82")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 182.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1cadb5-7bfd-4719-a7ab-c4d8d67a0f2b")
+	)
+	(wire
+		(pts
+			(xy 114.3 135.89) (xy 130.81 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eeab346-81d5-42ba-b89b-e4d671f5db09")
 	)
 	(wire
 		(pts
@@ -4078,6 +4090,16 @@
 			(type default)
 		)
 		(uuid "74966f2c-34ec-4160-9388-1cb1385e51eb")
+	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 182.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755625af-1c20-409c-9235-9e389e6eec9d")
 	)
 	(wire
 		(pts
@@ -4231,6 +4253,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 120.65) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868f1038-f744-4430-b775-4648e7313946")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899b3971-dcac-4625-a649-928bc646d2f2")
+	)
+	(wire
+		(pts
 			(xy 234.95 54.61) (xy 234.95 55.88)
 		)
 		(stroke
@@ -4301,6 +4343,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b04527-d4fd-4129-8278-b9c23f4a62be")
+	)
+	(wire
+		(pts
 			(xy 234.95 102.87) (xy 252.73 102.87)
 		)
 		(stroke
@@ -4331,6 +4383,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 128.27) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ebf6fc-8a89-4153-bf5f-559b77e08be6")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 182.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b060196-6e6d-45bd-b45e-8e1896d281cc")
+	)
+	(wire
+		(pts
 			(xy 163.83 41.91) (xy 163.83 44.45)
 		)
 		(stroke
@@ -4338,6 +4410,16 @@
 			(type default)
 		)
 		(uuid "9be0ba24-df31-4383-a23a-af09ee34db65")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d14911f-3d6b-435d-ac5a-01a76f26f7e8")
 	)
 	(wire
 		(pts
@@ -4631,6 +4713,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 151.13) (xy 182.88 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c83dad-ea52-434d-a561-fb2aa6dc18db")
+	)
+	(wire
+		(pts
 			(xy 121.92 156.21) (xy 121.92 153.67)
 		)
 		(stroke
@@ -4678,6 +4770,16 @@
 			(type default)
 		)
 		(uuid "e07ed5a9-8bd8-44d9-aa47-db9636e6078a")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b59288-f2eb-4b58-85fd-83712ce1f224")
 	)
 	(wire
 		(pts
@@ -4791,7 +4893,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 130.81 125.73)
+			(xy 182.88 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4831,7 +4933,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 130.81) (xy 130.81 130.81)
+			(xy 182.88 92.71) (xy 166.37 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4849,15 +4951,35 @@
 		)
 		(uuid "01076f6a-92fa-4487-9154-2e8643727d1c")
 	)
-	(label "MOTOR_2"
-		(at 116.8627 125.73 0)
+	(label "INT1"
+		(at 115.57 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "05e2c8e9-a1c2-48fd-b1b6-433e6803a30c")
+		(uuid "1179d87a-cd4a-4318-bf5c-150e4903103b")
+	)
+	(label "DAT1"
+		(at 115.57 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12e70696-657d-44fa-a2be-ac33592e6869")
+	)
+	(label "CSB"
+		(at 181.61 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1967345b-7cbe-4b72-8b3e-ff06022f6cd1")
 	)
 	(label "OSC32_OUT_F4"
 		(at 115.57 146.05 0)
@@ -4868,6 +4990,16 @@
 			(justify left bottom)
 		)
 		(uuid "23aaffc8-c743-4eee-a478-fd3a616d0a77")
+	)
+	(label "MOSI"
+		(at 181.61 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28f04013-e86d-472a-abec-b2015cc866d7")
 	)
 	(label "OSC_IN_F4"
 		(at 115.57 95.25 0)
@@ -4889,6 +5021,16 @@
 		)
 		(uuid "2ea096da-e301-404e-8630-318a318bf5e7")
 	)
+	(label "LED_STATUS"
+		(at 181.61 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3033ae04-59d7-4f0c-af8c-a01f1dfe93d0")
+	)
 	(label "VCAP_1"
 		(at 121.92 151.13 0)
 		(effects
@@ -4898,6 +5040,36 @@
 			(justify left bottom)
 		)
 		(uuid "337cefd4-3731-44a9-aeff-bfa543fcc5b3")
+	)
+	(label "MTR2"
+		(at 181.61 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "339405e9-4686-4051-83d9-eb643c3fba5b")
+	)
+	(label "MISO"
+		(at 181.61 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3736b777-65b4-4339-a0e9-43791609a524")
+	)
+	(label "CLK"
+		(at 115.57 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a573be9-0bc9-4356-a64a-e333fea2f11a")
 	)
 	(label "OSC32_IN_F4"
 		(at 77.47 99.06 180)
@@ -4930,6 +5102,16 @@
 		)
 		(uuid "56cb4341-517c-49d1-9309-62f60dd776c4")
 	)
+	(label "MTR3"
+		(at 181.61 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57819200-972a-4a97-96e8-dfeb3f98bd30")
+	)
 	(label "OSC_OUT_F4"
 		(at 74.93 64.77 180)
 		(effects
@@ -4939,6 +5121,26 @@
 			(justify right bottom)
 		)
 		(uuid "69b0ae7a-6570-4a03-a597-b00da139946d")
+	)
+	(label "DAT0"
+		(at 115.57 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b2c10ec-4cf3-4115-987a-ac43eb6f7459")
+	)
+	(label "DAT3"
+		(at 115.57 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e7d75df-fa2e-4467-abf5-aac3ca96b7fc")
 	)
 	(label "UART1_RX_F4"
 		(at 181.61 110.49 180)
@@ -4970,15 +5172,15 @@
 		)
 		(uuid "956292e8-b504-4c15-bf5d-82439d6eb06c")
 	)
-	(label "MOTOR_3"
-		(at 116.84 128.27 0)
+	(label "BUZZER"
+		(at 181.61 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "98ced707-fa76-4753-b8cd-9f1777bef767")
+		(uuid "9e58a3a6-4b9d-45da-86b9-b7b58ca7ec7d")
 	)
 	(label "UART1_TX_F4"
 		(at 181.61 107.95 180)
@@ -5000,6 +5202,16 @@
 		)
 		(uuid "a3794386-9aeb-4c0b-8b4b-ee27798e418a")
 	)
+	(label "MTR4"
+		(at 181.61 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6682bdf-71a0-4384-b454-2f949e270f62")
+	)
 	(label "SWCLK_F4"
 		(at 240.03 107.95 0)
 		(effects
@@ -5010,18 +5222,38 @@
 		)
 		(uuid "b33fa6d5-ce04-4dfd-a7cc-f8d1f5b03b71")
 	)
-	(label "MOTOR_4"
-		(at 116.84 130.81 0)
+	(label "CMD"
+		(at 115.57 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b8d3d7fb-2a0b-423d-9a24-5f2480cb2c3b")
+		(uuid "b69342de-2a9a-4a97-9cb0-85dd0d74ab0c")
+	)
+	(label "INT"
+		(at 115.57 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9a20e3a-09de-4567-92cd-a1cc4122b47a")
+	)
+	(label "SDA"
+		(at 181.61 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c10ab73f-2225-4a19-a2bb-a8b9714998be")
 	)
 	(label "CURR_SENSE"
-		(at 115.57 113.03 180)
+		(at 181.61 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5051,6 +5283,26 @@
 		)
 		(uuid "c796dd5b-b2dc-4b67-9ec3-77b3e5c2a010")
 	)
+	(label "SCK"
+		(at 181.61 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7cbe7e9-ee0c-4c07-a9e5-403feb033cd9")
+	)
+	(label "SCL"
+		(at 181.61 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd813b02-9a49-4c76-a533-5d1ceb784081")
+	)
 	(label "NRST_F4"
 		(at 115.57 85.09 0)
 		(effects
@@ -5060,16 +5312,6 @@
 			(justify left bottom)
 		)
 		(uuid "d1f50242-35cd-4c68-8f23-626c5fbc9340")
-	)
-	(label "MOTOR_1"
-		(at 116.84 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d42292a5-9056-40c5-ad8b-bde7e841a63d")
 	)
 	(label "OSC_OUT_F4"
 		(at 115.57 97.79 0)
@@ -5111,6 +5353,16 @@
 		)
 		(uuid "dbc7cc07-9232-48ac-bd8a-992a0f9c9ba4")
 	)
+	(label "DAT2"
+		(at 115.57 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc0e5640-e511-4085-bcaa-4559f352dae0")
+	)
 	(label "OSC32_IN_F4"
 		(at 115.57 143.51 0)
 		(effects
@@ -5132,7 +5384,7 @@
 		(uuid "e23719ee-dfbc-4819-b826-8d12c9a948c4")
 	)
 	(label "VBAT_SENSE"
-		(at 115.57 109.22 180)
+		(at 181.61 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5151,6 +5403,26 @@
 		)
 		(uuid "ea783604-a0cd-4f06-9208-c6c1878293ee")
 	)
+	(label "LED_ERROR"
+		(at 181.61 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eeb5d0e8-cdaa-4541-be3e-31367473806f")
+	)
+	(label "MTR1"
+		(at 181.61 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8a6959d-912a-45f9-80e1-0cf4d9abe2de")
+	)
 	(label "SWDIO_F4"
 		(at 181.61 118.11 180)
 		(effects
@@ -5163,36 +5435,47 @@
 	)
 	(hierarchical_label "CURR_SENSE"
 		(shape input)
-		(at 100.33 113.03 180)
+		(at 182.88 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "003ad3d5-e489-451a-b14f-7c17c22b17ee")
 	)
 	(hierarchical_label "VBAT_SENSE"
 		(shape input)
-		(at 100.33 109.22 180)
+		(at 182.88 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0dbe7757-1cbc-4a4d-af42-4eeca8ec2f4f")
 	)
-	(hierarchical_label "MOTOR_3"
+	(hierarchical_label "MTR3"
 		(shape output)
-		(at 115.57 128.27 180)
+		(at 182.88 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "225b17a4-8ec5-40d4-a292-7b088ac17d8b")
+	)
+	(hierarchical_label "SCK"
+		(shape output)
+		(at 182.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25c5de58-9e3a-4a5d-9cf5-3d14500bf5d4")
 	)
 	(hierarchical_label "VCC_MCU"
 		(shape input)
@@ -5206,16 +5489,38 @@
 		)
 		(uuid "2f64ee61-75c5-48ca-8c78-67770863860d")
 	)
-	(hierarchical_label "MOTOR_1"
-		(shape output)
-		(at 115.57 123.19 180)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 182.88 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "36cd2e25-2e81-433d-8727-56bf0cf57b45")
+	)
+	(hierarchical_label "MTR1"
+		(shape output)
+		(at 182.88 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "3b308f06-0672-4630-84d2-644ec021dd88")
+	)
+	(hierarchical_label "CSB"
+		(shape output)
+		(at 182.88 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d3bc7f2-902b-48ef-aa9e-15a244cad701")
 	)
 	(hierarchical_label "VCC_MCU"
 		(shape input)
@@ -5229,6 +5534,17 @@
 		)
 		(uuid "4dcc9c2d-ed3a-4cb3-b9a8-c1583c334488")
 	)
+	(hierarchical_label "CMD"
+		(shape output)
+		(at 114.3 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dfff21c-018c-48a8-a523-a1674dd0eda3")
+	)
 	(hierarchical_label "VCC_MCU"
 		(shape input)
 		(at 55.88 139.7 180)
@@ -5241,9 +5557,20 @@
 		)
 		(uuid "614a7fbf-81ea-4d2c-a2b0-dbc83010bf58")
 	)
+	(hierarchical_label "LED_STATUS"
+		(shape output)
+		(at 182.88 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a77d88d-ef4a-4334-a3b3-77b859e9186a")
+	)
 	(hierarchical_label "USB_STM32_DN"
 		(shape bidirectional)
-		(at 181.61 113.03 0)
+		(at 182.88 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,6 +5578,39 @@
 			(justify left)
 		)
 		(uuid "75c3fc94-a936-490e-9af2-a18e9ceef1e1")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 182.88 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87e94e8b-87a7-4649-8e98-646e96c8957a")
+	)
+	(hierarchical_label "CLK"
+		(shape output)
+		(at 114.3 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a8b7217-e5ee-4e6a-81b7-1bcfd9577459")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 182.88 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "910bc162-31ee-4eac-9c16-7044191ea34e")
 	)
 	(hierarchical_label "VCC_MCU"
 		(shape input)
@@ -5263,6 +5623,61 @@
 			(justify right)
 		)
 		(uuid "ab612ff6-f6c7-4118-813e-821ed917164f")
+	)
+	(hierarchical_label "DAT2"
+		(shape output)
+		(at 114.3 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acb54095-74ae-4dce-8ab3-6e26029bcfa2")
+	)
+	(hierarchical_label "LED_ERROR"
+		(shape output)
+		(at 182.88 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b676ca37-b24f-4ea6-b849-3b0a9851b6c7")
+	)
+	(hierarchical_label "DAT0"
+		(shape input)
+		(at 114.3 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6d8603e-65d8-4a62-a54c-6ff1b8bbba8b")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 114.3 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9b091db-89be-4c4f-89d1-57eb30780d8e")
+	)
+	(hierarchical_label "MOSI"
+		(shape output)
+		(at 182.88 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dac918d7-4081-4527-9612-3edae7d00ee5")
 	)
 	(hierarchical_label "VCC_MCU"
 		(shape input)
@@ -5288,9 +5703,31 @@
 		)
 		(uuid "e33efe36-207b-4d78-8237-344693e2897c")
 	)
+	(hierarchical_label "DAT3"
+		(shape output)
+		(at 114.3 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea5c65da-c327-4bdb-beef-0c651a20de54")
+	)
+	(hierarchical_label "INT1"
+		(shape input)
+		(at 114.3 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edf0de65-0909-412a-ac1d-b10d48ad44fa")
+	)
 	(hierarchical_label "USB_STM32_DP"
 		(shape bidirectional)
-		(at 181.61 115.57 0)
+		(at 182.88 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5299,27 +5736,49 @@
 		)
 		(uuid "f372f4bb-16ea-4abb-b1cb-39808ee8ebfb")
 	)
-	(hierarchical_label "MOTOR_4"
+	(hierarchical_label "MTR4"
 		(shape output)
-		(at 115.57 130.81 180)
+		(at 182.88 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f632140f-a464-4b22-ae26-8902a06d11bb")
 	)
-	(hierarchical_label "MOTOR_2"
+	(hierarchical_label "DAT1"
 		(shape output)
-		(at 115.57 125.73 180)
+		(at 114.3 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
+		(uuid "fbf7a032-d0d5-4d3d-aae2-fdcf7a3dce5b")
+	)
+	(hierarchical_label "MTR2"
+		(shape output)
+		(at 182.88 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "fc98ccca-b244-4cea-90fc-841c80c3a683")
+	)
+	(hierarchical_label "BUZZER"
+		(shape output)
+		(at 182.88 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd1e662e-e589-4f4f-8044-376222302dc9")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -5413,58 +5872,6 @@
 		(property "LCSC Part #" ""
 			(at 234.95 60.96 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 234.95 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 234.95 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 234.95 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 234.95 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 234.95 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5610,58 +6017,6 @@
 		(property "LCSC Part #" ""
 			(at 261.62 60.96 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 261.62 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 261.62 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 261.62 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 261.62 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 261.62 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5893,48 +6248,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 196.85 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 196.85 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 196.85 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 196.85 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 200.66 49.5299 0)
 			(show_name no)
@@ -5986,17 +6299,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 200.66 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"
@@ -6106,58 +6408,6 @@
 		(property "LCSC Part #" ""
 			(at 257.81 105.41 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 257.81 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 257.81 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 257.81 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 257.81 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 257.81 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6560,48 +6810,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 114.3 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 114.3 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 114.3 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 114.3 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 114.3 160.02 0)
 			(show_name no)
@@ -6748,48 +6956,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" "Mouser"
-			(at 148.59 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "12.51"
-			(at 148.59 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 148.59 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 148.59 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 148.59 128.27 0)
 			(show_name no)
@@ -6834,16 +7000,6 @@
 		(property "Sim.Pins" ""
 			(at 148.59 128.27 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 148.59 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7152,58 +7308,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 57.15 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 57.15 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 57.15 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 57.15 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 57.15 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 57.15 99.06 0)
 			(show_name no)
@@ -7349,48 +7453,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 138.43 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 138.43 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 138.43 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 138.43 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 142.24 49.5299 0)
 			(show_name no)
@@ -7442,17 +7504,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 142.24 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -7570,48 +7621,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 184.15 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 184.15 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 184.15 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 184.15 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 187.96 49.5299 0)
 			(show_name no)
@@ -7663,17 +7672,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 187.96 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -7780,58 +7778,6 @@
 		(property "LCSC Part #" ""
 			(at 57.15 111.76 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 57.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 57.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 57.15 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 57.15 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 57.15 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7983,48 +7929,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 41.91 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 41.91 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 41.91 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 41.91 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 41.91 99.06 0)
 			(show_name no)
@@ -8160,48 +8064,6 @@
 		(property "LCSC Part #" ""
 			(at 41.91 52.07 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 41.91 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 41.91 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 41.91 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 41.91 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8433,48 +8295,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 100.33 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 100.33 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 100.33 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 100.33 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 104.14 49.5299 0)
 			(show_name no)
@@ -8526,17 +8346,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 104.14 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -8646,48 +8455,6 @@
 		(property "LCSC Part #" ""
 			(at 121.92 160.02 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 121.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 121.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 121.92 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 121.92 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8919,58 +8686,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 250.19 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 250.19 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 250.19 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 250.19 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 250.19 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 250.19 144.78 0)
 			(show_name no)
@@ -9108,58 +8823,6 @@
 		(property "LCSC Part #" ""
 			(at 57.15 64.77 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 57.15 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 57.15 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 57.15 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 57.15 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 57.15 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9313,58 +8976,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 234.95 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 234.95 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 234.95 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 234.95 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 234.95 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 234.95 50.8 0)
 			(show_name no)
@@ -9500,48 +9111,6 @@
 		(property "LCSC Part #" ""
 			(at 41.91 111.76 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 41.91 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 41.91 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 41.91 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 41.91 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9851,48 +9420,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 49.53 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 49.53 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 49.53 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 49.53 105.41 0)
 			(show_name no)
@@ -10116,48 +9643,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 125.73 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 125.73 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 125.73 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 125.73 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 129.54 49.5299 0)
 			(show_name no)
@@ -10209,17 +9694,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 129.54 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -10338,48 +9812,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 234.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 234.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 234.95 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 234.95 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 231.14 109.2199 0)
 			(show_name no)
@@ -10431,17 +9863,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 231.14 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"
@@ -10637,48 +10058,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 151.13 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 151.13 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 151.13 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 151.13 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 154.94 49.5299 0)
 			(show_name no)
@@ -10730,17 +10109,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 154.94 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -10849,58 +10217,6 @@
 		(property "LCSC Part #" ""
 			(at 57.15 52.07 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 57.15 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 57.15 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 57.15 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 57.15 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 57.15 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11046,48 +10362,6 @@
 		(property "LCSC Part #" ""
 			(at 49.53 58.42 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 49.53 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 49.53 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 49.53 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11317,48 +10591,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" "LCSC"
-			(at 173.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.0039"
-			(at 173.99 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 173.99 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" "350mA"
-			(at 173.9392 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 173.99 41.91 0)
 			(show_name no)
@@ -11403,16 +10635,6 @@
 		(property "Sim.Pins" ""
 			(at 173.99 41.91 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 173.99 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11529,58 +10751,6 @@
 		(property "LCSC Part #" ""
 			(at 57.15 144.78 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 57.15 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 57.15 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 57.15 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 57.15 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 57.15 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11726,58 +10896,6 @@
 		(property "LCSC Part #" ""
 			(at 261.62 50.8 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 261.62 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 261.62 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 261.62 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 261.62 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 261.62 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12009,48 +11127,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 113.03 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 113.03 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 113.03 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 113.03 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 116.84 49.5299 0)
 			(show_name no)
@@ -12102,17 +11178,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 116.84 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -12306,48 +11371,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 41.91 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 41.91 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 41.91 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 41.91 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 41.91 64.77 0)
 			(show_name no)
@@ -12493,48 +11516,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 163.83 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 163.83 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 163.83 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 163.83 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 167.64 49.5299 0)
 			(show_name no)
@@ -12586,17 +11567,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 167.64 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -12714,48 +11684,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 57.15 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 57.15 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 57.15 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 57.15 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" "X7R"
 			(at 60.96 161.2899 0)
 			(show_name no)
@@ -12807,17 +11735,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "VOLTAGE" "16V"
-			(at 60.96 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "1"

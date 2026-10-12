@@ -890,6 +890,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_Filled"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, filled shape"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -1986,6 +2152,12 @@
 		(uuid "1ee8434b-b1a0-4911-9e64-7b8820fcacac")
 	)
 	(junction
+		(at 125.73 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4774c525-cc0d-4f10-b9e2-3ba24542a393")
+	)
+	(junction
 		(at 125.73 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1996,12 +2168,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56719a43-58f9-498f-8780-f1821e28a11a")
-	)
-	(junction
-		(at 125.73 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c6a7b92-b969-4d4e-9f56-b8bd887d9fdb")
 	)
 	(junction
 		(at 125.73 97.79)
@@ -2049,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 187.96 97.79)
+			(xy 163.83 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 95.25) (xy 187.96 95.25)
+			(xy 163.83 95.25) (xy 185.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2259,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 80.01) (xy 185.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abec1016-0e56-4c30-88a8-45590946495b")
+	)
+	(wire
+		(pts
 			(xy 139.7 86.36) (xy 139.7 85.09)
 		)
 		(stroke
@@ -2269,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 80.01) (xy 187.96 80.01)
+			(xy 125.73 80.01) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2348,7 +2524,7 @@
 		(uuid "ee0706ff-d318-490b-81c4-e2cc8c2112a2")
 	)
 	(label "USB_STM32_DP"
-		(at 187.96 97.79 180)
+		(at 182.88 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2398,7 +2574,7 @@
 		(uuid "976f906e-d692-4573-878f-8a74e9bf89a3")
 	)
 	(label "USB_STM32_DN"
-		(at 187.96 95.25 180)
+		(at 182.88 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2407,19 +2583,29 @@
 		)
 		(uuid "b3157292-009b-41b4-8e75-ade5f762ed8d")
 	)
-	(label "VBUS_FILTER"
-		(at 187.96 80.01 180)
+	(label "5V_SYS"
+		(at 182.88 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+		(uuid "b8a26005-4eff-42b5-80c6-7fbfb4de771e")
+	)
+	(label "VBUS_FILTER"
+		(at 133.35 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "f450e787-880e-4cb0-9412-cde6baeb8b4a")
 	)
 	(hierarchical_label "USB_STM32_DN"
 		(shape bidirectional)
-		(at 187.96 95.25 0)
+		(at 185.42 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2428,9 +2614,9 @@
 		)
 		(uuid "027bf76b-8e0f-4319-8573-e7534ded3142")
 	)
-	(hierarchical_label "VBUS_FILTER"
+	(hierarchical_label "5V_SYS"
 		(shape output)
-		(at 187.96 80.01 0)
+		(at 185.42 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2441,7 +2627,7 @@
 	)
 	(hierarchical_label "USB_STM32_DP"
 		(shape bidirectional)
-		(at 187.96 97.79 0)
+		(at 185.42 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2515,40 +2701,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C62708"
-			(at 102.87 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part" "CBM160808U121T"
-			(at 102.87 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 102.87 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.0038"
 			(at 102.87 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2768,48 +2921,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 132.08 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 132.08 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 132.08 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 132.08 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 132.08 87.63 0)
 			(show_name no)
@@ -2944,48 +3055,6 @@
 		(property "LCSC Part #" ""
 			(at 132.08 85.09 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROVIDER" ""
-			(at 132.08 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 132.08 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 132.08 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 132.08 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3488,69 +3557,6 @@
 				)
 			)
 		)
-		(property "PROVIDER" ""
-			(at 125.73 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 125.73 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Descrip" ""
-			(at 125.73 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PLACE" ""
-			(at 125.73 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 125.73 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CURRENT" ""
-			(at 125.73 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "TC" ""
 			(at 125.73 73.66 0)
 			(show_name no)
@@ -3747,6 +3753,191 @@
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/4030dd44-6a5a-49c9-b125-91f17e6edaee"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Filled")
+		(at 158.75 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f456074f-89ed-49a6-8235-ff7b4f3c5f32")
+		(property "Reference" "D?"
+			(at 159.0675 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B5819W"
+			(at 159.0675 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, filled shape"
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" ""
+			(at 158.75 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 158.75 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 158.75 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" ""
+			(at 158.75 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 158.75 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" ""
+			(at 158.75 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5114b6a4-33fe-4af2-8a3c-b02cab692ddf")
+		)
+		(pin "2"
+			(uuid "0381d647-1fb3-4ad4-a2cd-12e6265296cf")
+		)
+		(instances
+			(project "DNC"
+				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/4030dd44-6a5a-49c9-b125-91f17e6edaee"
+					(reference "D?")
 					(unit 1)
 				)
 			)

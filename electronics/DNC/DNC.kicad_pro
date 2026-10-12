@@ -651,18 +651,6 @@
         },
         {
           "group_by": false,
-          "label": "PLACE",
-          "name": "PLACE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "CURRENT",
-          "name": "CURRENT",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "TC",
           "name": "TC",
           "show": false
@@ -687,12 +675,6 @@
         },
         {
           "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
@@ -705,14 +687,26 @@
         },
         {
           "group_by": false,
-          "label": "PROVIDER",
-          "name": "PROVIDER",
+          "label": "Cost",
+          "name": "Cost",
           "show": false
         },
         {
           "group_by": false,
-          "label": "VOLTAGE",
-          "name": "VOLTAGE",
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
           "show": false
         }
       ],
@@ -772,7 +766,7 @@
         "uuid": "abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85"
       }
     ],
-    "used_designators": "L1-4,D1-19,#PWR1-162,R1-56,J1-21,C1-71,FB1-5,H1-8,SW1-5,U1-15,Y1-9",
+    "used_designators": "L1-4,D1-19,#PWR1-162,#FLG1,R1-56,J1-21,C1-71,FB1-5,H1-8,SW1-5,U1-15,Y1-9,JP1-2,BZ1,Q1",
     "variants": []
   },
   "sheets": [
@@ -797,8 +791,8 @@
       "PMS"
     ],
     [
-      "e7109b5f-e3c5-4f77-aaf8-8d623d0b87b6",
-      "IMU"
+      "16b7fe8e-042e-4230-94b6-bdf3f83dd8c6",
+      "Indicadores"
     ],
     [
       "c2feebfa-76d2-4384-8f17-d18418211e87",
@@ -811,6 +805,10 @@
     [
       "18620967-b01e-4bf5-b906-54a6ad8f63f3",
       "ESC"
+    ],
+    [
+      "c7e61742-03fb-4f4f-aef3-37e8cfb255c2",
+      "Sensores"
     ]
   ],
   "text_variables": {

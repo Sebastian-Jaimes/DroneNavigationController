@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "995da952-3601-4659-b845-54640dd26346")
+	(uuid "c404a442-26c5-4dd1-a751-899b4e92ce5b")
 	(paper "A4")
 	(title_block
 		(title "${TITLE}")
@@ -795,7 +795,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 121.92 78.74)
+			(xy 106.68 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +963,7 @@
 		)
 		(uuid "ff6a703b-36f5-4649-b8a8-63972cc33fe9")
 	)
-	(label "MOTOR_3"
+	(label "MTR3"
 		(at 119.38 121.92 0)
 		(effects
 			(font
@@ -973,7 +973,7 @@
 		)
 		(uuid "02a1863f-1cd4-4b6e-b3ca-bd58a51a1172")
 	)
-	(label "MOTOR_1"
+	(label "MTR1"
 		(at 119.38 111.76 0)
 		(effects
 			(font
@@ -983,7 +983,7 @@
 		)
 		(uuid "3adc3a35-8252-40c2-8dfb-4abc4df26456")
 	)
-	(label "MOTOR_4"
+	(label "MTR4"
 		(at 119.38 127 0)
 		(effects
 			(font
@@ -993,8 +993,8 @@
 		)
 		(uuid "7e4b4234-b18c-4c12-963e-7bb614561d3f")
 	)
-	(label "VIN"
-		(at 118.11 78.74 0)
+	(label "VIN_MTR"
+		(at 107.95 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 		)
 		(uuid "db2fff19-e39b-4515-8073-c2257873a568")
 	)
-	(label "MOTOR_2"
+	(label "MTR2"
 		(at 119.4027 116.84 0)
 		(effects
 			(font
@@ -1013,9 +1013,9 @@
 		)
 		(uuid "f0d9ad19-8028-4313-b542-df654891770c")
 	)
-	(hierarchical_label "VIN"
+	(hierarchical_label "VIN_MTR"
 		(shape input)
-		(at 116.84 78.74 180)
+		(at 106.68 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1024,7 +1024,7 @@
 		)
 		(uuid "887474f0-7b29-4ba2-9b2c-b45828a13cd4")
 	)
-	(hierarchical_label "MOTOR_1"
+	(hierarchical_label "MTR1"
 		(shape input)
 		(at 118.11 111.76 180)
 		(effects
@@ -1035,7 +1035,7 @@
 		)
 		(uuid "a36c4248-182f-4a63-87aa-7d6d549a7f13")
 	)
-	(hierarchical_label "MOTOR_3"
+	(hierarchical_label "MTR3"
 		(shape input)
 		(at 118.11 121.92 180)
 		(effects
@@ -1046,7 +1046,7 @@
 		)
 		(uuid "b5968be2-a820-4997-ae25-427484c31f68")
 	)
-	(hierarchical_label "MOTOR_4"
+	(hierarchical_label "MTR4"
 		(shape input)
 		(at 118.11 127 180)
 		(effects
@@ -1057,7 +1057,7 @@
 		)
 		(uuid "be49a771-7e47-4a42-b0c3-4c6460a47720")
 	)
-	(hierarchical_label "MOTOR_2"
+	(hierarchical_label "MTR2"
 		(shape input)
 		(at 118.11 116.84 180)
 		(effects
@@ -1239,7 +1239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55967325-7b30-45d0-afb5-631707cdf9e1")
-		(property "Reference" "H6"
+		(property "Reference" "H?"
 			(at 161.29 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1300,7 +1300,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H6")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -1503,7 +1503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700d427f-388f-41a6-ad8a-d2db0ff7e224")
-		(property "Reference" "H5"
+		(property "Reference" "H?"
 			(at 161.29 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,7 +1564,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H5")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -1583,7 +1583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71376ed3-51b7-4ef2-8a45-92a1f1832994")
-		(property "Reference" "H4"
+		(property "Reference" "H?"
 			(at 161.29 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1644,7 +1644,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H4")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -1742,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "736fb5dd-0d1b-44e7-9d33-a4bcc1793813")
-		(property "Reference" "H3"
+		(property "Reference" "H?"
 			(at 161.29 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1803,7 +1803,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H3")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -1901,7 +1901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fe177e5-2597-4088-bf19-3b51a0700ea7")
-		(property "Reference" "H1"
+		(property "Reference" "H?"
 			(at 161.29 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +1962,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H1")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -1981,7 +1981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a459686-afb1-44a2-bb33-e742957fd584")
-		(property "Reference" "H8"
+		(property "Reference" "H?"
 			(at 161.29 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2042,7 +2042,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H8")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a277b84d-e56f-4c1d-b81c-3053a993df38")
-		(property "Reference" "H2"
+		(property "Reference" "H?"
 			(at 161.29 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2122,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H2")
+					(reference "H?")
 					(unit 1)
 				)
 			)
@@ -2323,7 +2323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b182fb0b-3a7e-48ed-96b8-8a9b3b837585")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 151.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2383,7 +2383,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ab7335-6623-4d65-8bbe-7c4d7c5896ec")
-		(property "Reference" "H7"
+		(property "Reference" "H?"
 			(at 161.29 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3068,7 +3068,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/18620967-b01e-4bf5-b906-54a6ad8f63f3"
-					(reference "H7")
+					(reference "H?")
 					(unit 1)
 				)
 			)

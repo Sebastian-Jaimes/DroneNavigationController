@@ -2962,7 +2962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules\\Indicadores.kicad_sch"
+		(property "Sheetfile" "modules/Indicadores.kicad_sch"
 			(at 26.67 193.6246 0)
 			(hide yes)
 			(show_name no)
@@ -3280,7 +3280,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules\\MicroSD.kicad_sch"
+		(property "Sheetfile" "modules/MicroSD.kicad_sch"
 			(at 118.11 173.3046 0)
 			(hide yes)
 			(show_name no)
@@ -3397,7 +3397,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules\\Sensores.kicad_sch"
+		(property "Sheetfile" "modules/Sensores.kicad_sch"
 			(at 26.67 165.6846 0)
 			(hide yes)
 			(show_name no)
@@ -3534,7 +3534,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules\\Receptor.kicad_sch"
+		(property "Sheetfile" "modules/Receptor.kicad_sch"
 			(at 220.98 172.0346 0)
 			(hide yes)
 			(show_name no)
@@ -3581,7 +3581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules\\STM32F405.kicad_sch"
+		(property "Sheetfile" "modules/STM32F405.kicad_sch"
 			(at 101.6 133.9346 0)
 			(hide yes)
 			(show_name no)

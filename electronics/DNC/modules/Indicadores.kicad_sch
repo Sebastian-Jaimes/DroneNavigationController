@@ -1650,7 +1650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "470c004d-4dd8-414c-a560-99c175a07237")
-		(property "Reference" "D2"
+		(property "Reference" "D?"
 			(at 191.77 99.3774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1725,7 +1725,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/16b7fe8e-042e-4230-94b6-bdf3f83dd8c6"
-					(reference "D2")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -1743,7 +1743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c812507-bc82-41d0-a899-1c980e8dfa5e")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 190.5 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +1912,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/16b7fe8e-042e-4230-94b6-bdf3f83dd8c6"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -3344,7 +3344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed43393c-8510-412f-a8e1-34b9e488b8a6")
-		(property "Reference" "D1"
+		(property "Reference" "D?"
 			(at 191.77 66.3574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3419,7 @@
 		(instances
 			(project "DNC"
 				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85/16b7fe8e-042e-4230-94b6-bdf3f83dd8c6"
-					(reference "D1")
+					(reference "D?")
 					(unit 1)
 				)
 			)

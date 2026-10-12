@@ -23,3 +23,7 @@ Thumbs.db
 # Ignorar archivos de simulación grandes
 *.fem.history/
 .history/
+
+# Archivos de bloqueo (SolidWorks / Office) y de KiCad abierto
+~$*
+~*.lck

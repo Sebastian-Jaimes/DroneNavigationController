@@ -349,7 +349,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS_Filled"
+		(symbol "Diode:SM6T18A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -372,7 +372,7 @@
 					)
 				)
 			)
-			(property "Value" "D_TVS_Filled"
+			(property "Value" "SM6T18A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -382,7 +382,29 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SMB"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, DO-214AA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -393,7 +415,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "diode TVS voltage suppressor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -404,7 +426,7 @@
 					)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(property "ki_fp_filters" "D*SMB*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -415,44 +437,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_Filled_0_1"
+			(symbol "SM6T18A_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -464,30 +452,18 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "D_TVS_Filled_1_1"
+			(symbol "SM6T18A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -867,32 +843,22 @@
 		(uuid "d400322a-74d8-4fc5-a9aa-ee74bd2d1fa8")
 	)
 	(junction
-		(at 35.56 35.56)
+		(at 73.66 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2baf9c9f-7c34-4754-a8cc-eda8bf1cee6b")
+	)
+	(junction
+		(at 40.64 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef07e07-a401-4470-af15-bccb0a4f1bb3")
 	)
 	(junction
-		(at 71.12 33.02)
+		(at 58.42 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ade7068f-51f9-4db2-a943-1f70a7442c37")
-	)
-	(junction
-		(at 53.34 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c16fc189-102d-4497-b106-3ed42d64c737")
-	)
-	(wire
-		(pts
-			(xy 53.34 33.02) (xy 71.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03cd9886-417f-4d0b-899c-69ddc9047d79")
+		(uuid "b9eeb04b-7692-419f-af7e-6960e772d060")
 	)
 	(wire
 		(pts
@@ -906,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 34.29) (xy 71.12 33.02)
+			(xy 73.66 34.29) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 36.83) (xy 35.56 35.56)
+			(xy 40.64 36.83) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 71.12 43.18)
+			(xy 73.66 41.91) (xy 73.66 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1022,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 53.34 43.18)
+			(xy 58.42 41.91) (xy 58.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1296,6 +1262,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931bec45-c8c1-4bfa-8681-149f8b58e447")
+	)
+	(wire
+		(pts
 			(xy 143.51 82.55) (xy 134.62 82.55)
 		)
 		(stroke
@@ -1356,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 35.56) (xy 34.29 35.56)
+			(xy 40.64 35.56) (xy 39.37 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 33.02) (xy 53.34 33.02)
+			(xy 39.37 33.02) (xy 58.42 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 33.02) (xy 53.34 34.29)
+			(xy 58.42 33.02) (xy 58.42 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 87.63 33.02)
+			(xy 73.66 33.02) (xy 87.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2081,7 @@
 		(uuid "ead3247f-af9c-40a3-8972-d46c07bd9c02")
 	)
 	(label "VIN_RAW"
-		(at 43.18 33.02 0)
+		(at 45.72 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2165,8 +2141,8 @@
 		(uuid "f788a5ca-c6a8-4ab0-b4a0-ad5669539ed0")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 29.21 35.56 180)
+		(lib_id "Diode:SM6T18A")
+		(at 58.42 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2175,29 +2151,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62474898-66f1-4da9-a709-4b14e3a82425")
-		(property "Reference" "J?"
-			(at 29.21 26.67 0)
+		(uuid "04e78806-1adc-44db-b4a0-1ebd38271f38")
+		(property "Reference" "D?"
+			(at 60.96 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "XT-60"
-			(at 29.21 29.21 0)
+		(property "Value" "SMBJ18A"
+			(at 60.96 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 29.21 35.56 0)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 53.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,8 +2185,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 29.21 35.56 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
+			(at 58.42 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,8 +2196,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 35.56 0)
+		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, DO-214AA"
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2208,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,7 +2219,7 @@
 			)
 		)
 		(property "Mfg Part #" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2230,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,7 +2241,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2274,7 +2252,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,7 +2263,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2295,7 +2273,7 @@
 			)
 		)
 		(property "Current" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2305,7 +2283,7 @@
 			)
 		)
 		(property "TC" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2315,7 +2293,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2325,7 +2303,192 @@
 			)
 		)
 		(property "Tol" ""
-			(at 29.21 35.56 0)
+			(at 58.42 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5576a30a-12f7-4454-83eb-c75ccbe7ac9a")
+		)
+		(pin "2"
+			(uuid "1d180945-08c0-46f8-8e2c-6dcda7240508")
+		)
+		(instances
+			(project "DNC"
+				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 34.29 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62474898-66f1-4da9-a709-4b14e3a82425")
+		(property "Reference" "J?"
+			(at 34.29 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT-60"
+			(at 34.29 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg Part #" ""
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" ""
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 34.29 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 34.29 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" ""
+			(at 34.29 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 34.29 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" ""
+			(at 34.29 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2352,7 +2515,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 35.56 36.83 0)
+		(at 40.64 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2363,7 +2526,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d0a688-2779-4c26-8cc5-b5c64c159967")
 		(property "Reference" "#PWR?"
-			(at 35.56 43.18 0)
+			(at 40.64 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,7 +2537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 41.91 0)
+			(at 40.64 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2384,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 36.83 0)
+			(at 40.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 36.83 0)
+			(at 40.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 36.83 0)
+			(at 40.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,195 +2592,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 53.34 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a893989-c5c3-444a-ad66-e78f7131d923")
-		(property "Reference" "D?"
-			(at 55.88 36.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ26CA"
-			(at 55.88 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg Part #" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" ""
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 53.34 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current" ""
-			(at 53.34 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TC" ""
-			(at 53.34 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 53.34 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tol" ""
-			(at 53.34 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bad5893d-54ee-4076-974a-112af7f6f084")
-		)
-		(pin "2"
-			(uuid "688531ea-767b-47f2-aee6-5528d462a40e")
-		)
-		(instances
-			(project "DNC"
-				(path "/abee636e-ad3a-4ba4-b95f-d0cf4a6d3d85"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 71.12 38.1 0)
+		(at 73.66 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2628,7 +2604,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5afc03d-9019-4be5-9cee-2973f66cba4f")
 		(property "Reference" "C?"
-			(at 74.93 34.9249 0)
+			(at 77.47 34.9249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2639,7 +2615,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 74.93 37.4649 0)
+			(at 77.47 37.4649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,7 +2626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2648,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2659,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,7 +2670,7 @@
 			)
 		)
 		(property "Mfg Part #" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +2681,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2692,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +2703,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +2714,7 @@
 			)
 		)
 		(property "Voltage" "35V"
-			(at 74.93 40.0049 0)
+			(at 77.47 40.0049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2749,7 +2725,7 @@
 			)
 		)
 		(property "Current" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2759,7 +2735,7 @@
 			)
 		)
 		(property "TC" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2769,7 +2745,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2779,7 +2755,7 @@
 			)
 		)
 		(property "Tol" ""
-			(at 71.12 38.1 0)
+			(at 73.66 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2806,7 +2782,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 71.12 43.18 0)
+		(at 73.66 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2817,7 +2793,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1c82107-0689-4c36-80e6-af21cdc33bd9")
 		(property "Reference" "#PWR?"
-			(at 71.12 49.53 0)
+			(at 73.66 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2828,7 +2804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 48.26 0)
+			(at 73.66 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2838,7 +2814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 43.18 0)
+			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +2825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 43.18 0)
+			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +2836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 43.18 0)
+			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2861,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 53.34 43.18 0)
+		(at 58.42 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2896,7 +2872,7 @@
 		(fields_autoplaced yes)
 		(uuid "e304abf9-39ff-406c-8c07-f01ee39eeb78")
 		(property "Reference" "#PWR?"
-			(at 53.34 49.53 0)
+			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,7 +2883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 48.26 0)
+			(at 58.42 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2917,7 +2893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 43.18 0)
+			(at 58.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 43.18 0)
+			(at 58.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,7 +2915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 43.18 0)
+			(at 58.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +2939,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 35.56 35.56 270)
+		(at 40.64 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2974,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea66983d-ecdb-4beb-a6c8-d9a5a225f988")
 		(property "Reference" "#FLG?"
-			(at 37.465 35.56 0)
+			(at 42.545 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +2961,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 39.37 35.5599 90)
+			(at 44.45 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2996,7 +2972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 35.56 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3007,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 35.56 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3018,7 +2994,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 35.56 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

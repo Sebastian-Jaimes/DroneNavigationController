@@ -1,11 +1,10 @@
-# Electronics
+# electronics
 
-Este directorio contiene los diseños y documentación relacionados con la electrónica para el proyecto **_DroneNavigationController_**. Aquí encontrarás esquemas, diagramas de circuito y otros archivos relevantes para la construcción y diseño de la electrónica del proyecto.
+| Ruta | Contenido |
+|---|---|
+| `DNC/DNC.kicad_pro` | Proyecto KiCad 10 del DNC (abrir este archivo) |
+| `DNC/modules/` | Hojas jerárquicas (PMS, F405, G0B1, sensores, SD, ESC, USB, indicadores, receptor) |
+| `DNC/libs/` | Librería local de huellas (`DNC.pretty`) |
+| `HUELLAS_2/`, `CURSO_PCB_DRONE.kicad_pcb`, `TopPlate.DXF` | Huellas sueltas, PCB del curso y DXF de la top plate |
 
-## Contenido
-
-- **schematics/**: Esquemas eléctricos del proyecto.
-- **pcbs/**: Archivos de diseño de placas de circuito impreso (PCBs).
-- **components/**: Lista de componentes y sus especificaciones.
-- **docs/**: Documentación adicional sobre el diseño y la implementación de la electrónica.
-- **scripts/**: Scripts para la generación de archivos y automatización de tareas relacionadas con la electrónica.
+Documentación del diseño: [../docs/](../docs/).

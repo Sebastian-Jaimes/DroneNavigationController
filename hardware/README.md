@@ -1,12 +1,9 @@
-# Hardware
+# hardware
 
-## Descripción
-En esta carpeta se encuentran los diseños mecánicos del proyecto **_DroneNavigationController_**, incluyendo los planos 3D y los ensamblajes.
+| Ruta | Contenido |
+|---|---|
+| `3d_models/3D/` | Modelos STEP de componentes |
+| `3d_models/zmr250-quadcopter-frame/`, `Drone Frame/`, `Drone_Frame_Owner/` | Frame ZMR250 (SolidWorks, Inventor, STEP, DXF) |
+| `3d_models/brushless-*` | Motores 1806 |
 
-## Contenido
-- **Diseños 3D**: Modelos en formato `.stl` para impresión 3D.
-- **Planos**: Dibujos técnicos en formato `.pdf` o `.dwg`.
-
-## Software recomendado
-- Para abrir los modelos 3D, usar **Fusion 360** o **FreeCAD**.
-- Los archivos STL pueden imprimirse con **Cura** o cualquier software de slicing.
+Formatos: SolidWorks (`.SLDPRT/.SLDASM`), Inventor (`.ipt/.iam`), STEP, STL, DXF.

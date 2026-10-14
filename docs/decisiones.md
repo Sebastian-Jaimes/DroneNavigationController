@@ -5,10 +5,10 @@ Una línea por decisión; la más reciente arriba. Detalle y descartes: historia
 
 | Fecha | Decisión | Por qué |
 |---|---|---|
-| 2026-10-12 | Pads de potencia ESC THT + ESD (USBLC6-4SC6) en MTR1–4 | Corriente de los ESC; las señales MTR salen de la placa |
+| 2026-10-12 | Pads de potencia ESC THT + ESD (USBLC6-4SC6) en MTR1–4 | Cable de 16 AWG (~15 A por ESC en el MVP1); las señales MTR salen de la placa |
 | 2026-10-12 | TVS SMBJ18A unidireccional (antes SMBJ26CA) | Clamp de 29,2 V, por debajo del máximo absoluto de 30 V del TPS54331 |
 | 2026-10-12 | INA169 alimentado desde 3V3_SYS | Su salida no debe superar 3,3 V (entrada ADC del F405) |
-| 2026-10-12 | 3V3_SYS con buck TPS62162 (antes LDO) | Eficiencia térmica; el LDO no alcanzaba con la SD |
+| 2026-10-12 | 3V3_SYS con buck TPS62162 (antes LDO AP2112K) | El LDO disipaba ~0,5 W en SOT-23-5 |
 | 2026-10-12 | 3V3_SEN (LP5907) habilitado por el PG del TPS62162 | Secuencia: sensores después de 3V3_SYS |
 | 2026-10 | MVP1 solo 4S; 6S pospuesto | El TPS54331 llega a 28 V; 6S exige buck de 60 V, TVS de ~28 V y capacitores de 50 V |
 | 2026-10 | Huecos de montaje aislados de la red de potencia | El frame de carbono es conductor (riesgo de corto) |

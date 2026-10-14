@@ -1,36 +1,33 @@
-# **_DroneNavigationController_**
+# DNC: Drone Navigation Controller
 
-## Descripción
-**_DroneNavigationController_** es un proyecto diseñado para controlar la navegación de un drone. Este repositorio contiene los diseños mecánicos, electrónicos, y el firmware necesario para su construcción y funcionamiento.
+Controlador de vuelo en una sola placa con **STM32F405** (control) + **STM32G0B1** (comunicaciones).
+Objetivo: correr ArduPilot (misiones autónomas con GPS y barómetro) y Betaflight/INAV (acrobático, loop times bajos).
 
-## Características
-- Control de vuelo.
-- Diseño modular.
-- Vuelo autónomo y a control remoto.
-- Interfaz de pantalla LCD para el control.
+**Estado:** esquemático en curso (KiCad 10). MVP1 para batería 4S. Seguimiento de tareas en Notion.
 
-## Estructura del proyecto
-- **/docs/**: Documentación técnica, manuales y guías.
-- **/hardware/**: Modelos 3D y planos mecánicos.
-- **/electronics/**: Diseño de PCBs y esquemáticos eléctricos.
-- **/firmware/**: Código fuente para microcontroladores (Arduino, ESP32).
-- **/software/**: Herramientas adicionales de software.
-- **/tests/**: Scripts y archivos para pruebas específicas.
+| Fase | Contenido | Estado |
+|---|---|---|
+| 1 | Arquitectura y esquemático base | ✅ |
+| 2 | Energía y protecciones | ⏳ |
+| 3 | G0B1, receptor y conectores | ⏳ |
+| 4 | Verificación del esquemático (CubeMX, huellas, ERC) | ⏳ |
+| 5 | Cierre del esquemático (BOM, revisión) | ⏳ |
+| 6 | PCB layout (4 capas, JLCPCB) | ⏳ |
+| 7 | Firmware (bring-up, drivers, DShot) | ⏳ |
 
-## Requisitos
-- Microcontrolador: ESP32, STM32 o Arduino.
-- Software: STM32CubeIDE.
+## Documentación
+- [Arquitectura](docs/arquitectura.md): bloques, energía, sensores y periféricos
+- [Pinout](docs/pinout.md): tabla única de pines
+- [Decisiones](docs/decisiones.md): qué se decidió y por qué
+- [Interfaces](docs/interfaces/): [DShot](docs/interfaces/dshot.md)
 
-## Instalación
-1. Clonar el repositorio:
-    ```bash
-    git clone https://github.com/Sebastian-Jaimes/DroneNavigationController
-    ```
-2. Acceder a la carpeta del firmware según el componente a desarrollar.
-3. Seguir las instrucciones de compilación en el archivo `README.md` de cada subcarpeta.
+## Estructura
+| Carpeta | Contenido |
+|---|---|
+| `docs/` | Documentación técnica (fuente de verdad) |
+| `electronics/` | Proyecto KiCad del DNC |
+| `hardware/` | Modelos 3D (frame, motores, componentes) |
+| `firmware/` | Firmware (Fase 7) |
 
 ## Licencia
-Este proyecto está licenciado bajo la MIT License - ver el archivo LICENSE para más detalles.
-
-## Contacto
-Cualquier consulta sobre el proyecto, puedes contactarme en: sebastian.jaimes.chacon@gmail.com
+MIT, ver [LICENSE](LICENSE). Contacto: sebastian.jaimes.chacon@gmail.com

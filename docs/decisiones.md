@@ -18,7 +18,7 @@ Una línea por decisión; la más reciente arriba. Detalle y descartes: historia
 | 6–11 oct | OLED eliminado → conector de expansión I2C2/UART | No aporta en vuelo |
 | 6–11 oct | Barómetro en I2C propio | Evitar latencia y bloqueos del bus compartido |
 | 6–11 oct | MicroSD por SDIO 4 bits | Blackbox más rápido; elimina el 74AHC1G125 del bus SPI |
-| 6–11 oct | Motores en TIM5 (PA0–PA3) | Liberar PC8/PC9 para el SDIO |
+| 6–11 oct | Motores en TIM5 (ver [pinout](pinout.md)) | Liberar los pines del SDIO (antes compartidos con los motores) |
 | 6–11 oct | Barómetro Bosch BMP581 | Activo, bajo ruido, en LCSC; DPS310/BMP388/LPS22/SPL06 descartados (stock u obsolescencia) |
 | 6–11 oct | Protección SD: TPD6F002 + ESD5Z3.3 | ESD + EMI + R serie en un solo WSON, −40…125 °C, en LCSC |
 | 6–11 oct | Buzzer piezo SMD CPT-12123 en placa | 5 mA, menos ruido en 5V_SYS y menos vibración hacia la IMU |
